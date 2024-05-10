@@ -34,7 +34,7 @@ const Banner = () => {
 
                  <div className=" bg-blue-950 p-5 rounded-xl ">
                     <img className=" h-[100px]" src="https://i.ibb.co/SsnH3bf/stethoscope.png" alt="" />
-                    <p className=" text-xl text-white font-bold mt-5">Pluse Kit</p>
+                    <p className=" text-xl text-white font-bold mt-5">Pulse Kit</p>
                  </div>
 
 

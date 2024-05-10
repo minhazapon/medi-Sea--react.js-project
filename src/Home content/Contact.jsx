@@ -4,12 +4,12 @@
 
 const Contact = () => {
     return (
-        <div  className="  ">
+        <div  className=" ">
             <div>
             
 
-<section className=" bg-gray-800 text-gray-50 bg-no-repeat  bg-cover  p-32" style={{backgroundImage: 'url(https://img.freepik.com/premium-photo/close-up-glass-globe-stethoscope-table-world-health-day_742339-2249.jpg?w=826)'}}    >
-<div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x bg-gradient-to-r from-black p-5">
+<section className=" flex-col md:flex-col lg:flex-row bg-gray-800 text-gray-50 bg-no-repeat  bg-cover  p-32" style={{backgroundImage: 'url(https://img.freepik.com/premium-photo/close-up-glass-globe-stethoscope-table-world-health-day_742339-2249.jpg?w=826)'}}    >
+<div className=" flex-col md:flex-col lg:flex-row  grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x bg-gradient-to-r from-black p-5">
 <div className="py-6 md:py-0 md:px-6">
 <h1 className="text-4xl font-bold">Get in touch</h1>
 <p className="pt-2 pb-4">Fill in the form to start a conversation</p>

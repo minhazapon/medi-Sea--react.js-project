@@ -69,7 +69,7 @@ const Camp = () => {
 
      {/* --------------------------------------------------------------------------           */}
 
-               <div className=" flex-col md:flex-row lg:flex-row">
+               <div className=" flex-col md:flex-row lg:flex-row text-blue-600">
 
 
 

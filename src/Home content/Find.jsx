@@ -21,7 +21,7 @@ const Find = () => {
              <div className=" mb-10 mt-10 grid  md:grid-cols-3 gap-5">
 
 
-               <div className="max-w-xs p-6 rounded-md shadow-md  bg-blue-950 text-white">
+               <div className="max-w-xs transition duration-300 ease-in-out hover:scale-110 p-6 rounded-md shadow-md  bg-blue-950 text-white">
                <img src="https://media.healthecareers.com/wp-content/uploads/2023/02/10133718/Shutterstock_2167322485.jpg" alt="" className="object-cover object-center w-full rounded-md h-72 bg-gray-500" />
                <div className="mt-6 mb-2">
                <h2 className="text-xl font-semibold tracking-wide">Cardiologists</h2>
@@ -30,7 +30,7 @@ const Find = () => {
                </div>
 
 
-               <div className="max-w-xs p-6 rounded-md shadow-md  bg-blue-950 text-gray-50">
+               <div className="max-w-xs transition duration-300 ease-in-out hover:scale-110 p-6 rounded-md shadow-md  bg-blue-950 text-gray-50">
                <img src="https://cdn-prod.medicalnewstoday.com/content/images/articles/326/326753/an-ophthalmologist-doing-eye-surgery.jpg" alt="" className="object-cover object-center w-full rounded-md h-72 bg-gray-500" />
                <div className="mt-6 mb-2">
                <h2 className="text-xl font-semibold tracking-wide">Ophthalmologists</h2>
@@ -39,7 +39,7 @@ const Find = () => {
                </div>
 
 
-               <div className="max-w-xs p-6 rounded-md shadow-md  bg-blue-950 text-gray-50">
+               <div className="max-w-xs transition duration-300 ease-in-out hover:scale-110 p-6 rounded-md shadow-md  bg-blue-950 text-gray-50">
                <img src="https://assets-global.website-files.com/6419c6455bd31b5d09bbe049/641c81bff32a256d5fc1119a_orthopedic-surgeon-in-dallas-explain-spine-surgery.jpeg" alt="" className="object-cover object-center w-full rounded-md h-72 bg-gray-500" />
                <div className="mt-6 mb-2">
                <h2 className="text-xl font-semibold tracking-wide">Orthopedic</h2>
@@ -48,7 +48,7 @@ const Find = () => {
                </div>
 
 
-               <div className="max-w-xs p-6 rounded-md shadow-md  bg-blue-950 text-gray-50">
+               <div className="max-w-xs transition duration-300 ease-in-out hover:scale-110 p-6 rounded-md shadow-md  bg-blue-950 text-gray-50">
                <img src="https://www.counselingpsychology.org/wp-content/uploads/2023/01/neurologist-768x512.jpg" alt="" className="object-cover object-center w-full rounded-md h-72 bg-gray-500" />
                <div className="mt-6 mb-2">
                <h2 className="text-xl font-semibold tracking-wide">Neurologists</h2>
@@ -57,7 +57,7 @@ const Find = () => {
                </div>
 
 
-               <div className="max-w-xs p-6 rounded-md shadow-md  bg-blue-950 text-gray-50">
+               <div className="max-w-xs transition duration-300 ease-in-out hover:scale-110 p-6 rounded-md shadow-md  bg-blue-950 text-gray-50">
                <img src="https://www.blueblisshospital.com/Images/Blue_Bliss_Urology_Banner.jpeg" alt="" className="object-cover object-center w-full rounded-md h-72 bg-gray-500" />
                <div className="mt-6 mb-2">
                <h2 className="text-xl font-semibold tracking-wide">Urologists</h2>
@@ -66,7 +66,7 @@ const Find = () => {
                </div>
 
 
-               <div className="max-w-xs p-6 rounded-md shadow-md  bg-blue-950 text-gray-50">
+               <div className="max-w-xs transition duration-300 ease-in-out hover:scale-110 p-6 rounded-md shadow-md  bg-blue-950 text-gray-50">
                <img src="https://www.ziprecruiter.com/svc/fotomat/public-ziprecruiter/cms/914140430Endocrinologist.jpg=ws1280x960" alt="" className="object-cover object-center w-full rounded-md h-72 bg-gray-500" />
                <div className="mt-6 mb-2">
                <h2 className="text-xl font-semibold tracking-wide">Cardiologists</h2>

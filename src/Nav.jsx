@@ -9,7 +9,6 @@ const Nav = () => {
        <li><NavLink to="/medicine">Medicine</NavLink></li>
        <li><NavLink to="/category">All Category</NavLink></li>
        <li><NavLink to="/history">Medicine History</NavLink></li>
-       <li><NavLink to="/about">About</NavLink></li>
        <li><NavLink to="/info">Medi Info</NavLink></li>
    
    

@@ -10,6 +10,13 @@ import Root from './Root';
 import Home from './Home';
 import Login from './login/Login';
 import SignUp from './login/SignUp';
+import Medicine from './medicine/Medicine';
+import Aspirin from './medicine/Aspirin';
+import Ibuprofen from './medicine/Ibuprofen';
+import Paracetamol from './medicine/Paracetamol';
+import Lisinopril from './medicine/Lisinopril';
+import Metformin from './medicine/Metformin';
+
 
 
 const router = createBrowserRouter([
@@ -29,6 +36,37 @@ const router = createBrowserRouter([
         path: "/sign",
         element:  <SignUp></SignUp>,
       },
+      {
+        path: "/medicine",
+        element:  <Medicine></Medicine>,
+
+      },
+      {
+        path: "/aspirin",
+        element: <Aspirin></Aspirin>,
+
+      },
+      {
+        path: "/ibuprofen",
+        element: <Ibuprofen></Ibuprofen>,
+
+      },
+      {
+        path: "/para",
+        element: <Paracetamol></Paracetamol>,
+
+      },
+      {
+        path: "/lis",
+        element: <Lisinopril></Lisinopril>,
+
+      },
+      {
+        path: "/met",
+        element: <Metformin></Metformin>,
+
+      },
+      
     ],
   },
 ]);

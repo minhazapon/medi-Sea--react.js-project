@@ -1,0 +1,93 @@
+
+[ 
+    {
+        "id": 101,
+        "image": "https://cdn-prod.medicalnewstoday.com/content/images/articles/301/301766/bottle-of-aspirin.jpg",
+        "name": " Aspirin",
+        "para": "A common pain reliever and fever reducer.",
+        "Price:": "400$"
+    
+    },
+    {
+        "id": 102,
+        "image": "https://m.media-amazon.com/images/I/71byBwaWpuL.jpg",
+        "name": " Ibuprofen",
+        "para": "Used for pain relief, fever reduction, and inflammation reduction.",
+        "Price:": "500$"
+      
+    },
+    {
+        "id": 103,
+        "image": "https://www.pharmica.co.uk/pain-relief/paracetamol/paracetamol-x-36229.jpg",
+        "name": " Paracetamol",
+        "para": "Another common pain reliever and fever reducer.",
+        "Price:": "600$"
+   
+    },
+    {
+        "id": 104,
+        "image": "https://www.camberpharma.com/wp-content/uploads/2022/09/LisinoprilBottles_30mg_500.jpg",
+        "name": " Lisinopril",
+        "para": "A medication for treating high blood pressure and heart failure.",
+        "Price:": "700$"
+      
+    },
+    {
+        "id": 105,
+        "image": "https://www.poison.org/-/media/images/shared/articles/metformin.jpg",
+        "name": " Metformin",
+        "para": "Used to treat type 2 diabetes",
+        "Price:": "800$"
+    },
+    {
+        "id": 106,
+        "image": "https://i5.walmartimages.com/seo/Equate-Omeprazole-Delayed-Release-Capsules-20-mg-28-Count_f7c3830d-d0c4-43bf-8c8d-5d302641e2a4.3c9a0eafa6ead6ef79aaba7fb8964925.jpeg",
+        "name": " Omeprazole",
+        "para": "A proton-pump inhibitor used to reduce stomach acid production.",
+        "Price:": "900$"
+    },
+    {
+        "id": 107,
+        "image": "https://www.crukctuglasgow.org/images/amoxicillin-1.png",
+        "name": " Amoxicillin",
+        "para": "An antibiotic used to treat bacterial infections.",
+        "Price:": "5000$"
+    },
+    {
+        "id": 108,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnLh6CqsBVFM2d4_uzpi5gDpCugJtQ0pJ7yMYGoVzigA&s",
+        "name": " Atorvastatin",
+        "para": " A statin medication used to lower cholesterol levels.",
+        "Price:": "700$"
+    },
+    {
+        "id": 109,
+        "image": "https://api.watsons.com.ph/medias/zoom-back-10071196.jpg?context=bWFzdGVyfGltYWdlc3w0MTIxMjB8aW1hZ2UvanBlZ3xhREk0TDJnNU1DOHhNamN3TURjME5Ea3dPRGd6TUM5WFZFTlFTQzB4TURBM01URTVOaTFpWVdOckxtcHdad3xkNmM3Y2FhNTVmMmIzMzNjM2JkYzdiYzMyMzQxNjZlMjI2ODNjNjA2Njc4MTRiNzA5MTZjMGJlNzUxZDEwYmVl",
+        "name": " Levothyroxine",
+        "para": "Used to treat an underactive thyroid gland (hypothyroidism).",
+        "Price:": "800$"
+    },
+    {
+        "id": 110,
+        "image": "https://www.hss.edu/images/socialmedia/corticosteroid-prednisone-tablets-500X262.jpg",
+        "name": " Prednisone",
+        "para": " A corticosteroid used to treat various conditions such as allergies, asthma, and autoimmune disorders.",
+        "Price:": "900$"
+    },
+    {
+        "id": 111,
+        "image": "https://fidson.com/wp-content/uploads/2022/09/Ciprofloxacin-500.png",
+        "name": " Ciprofloxacin",
+        "para": "An antibiotic used to treat a variety of bacterial infections.",
+        "Price:": "300$"
+    },
+    {
+        "id": 112,
+        "image": "https://cdn.storymd.com/optimized/OoYBGRLHMd/original.jpg",
+        "name": " Warfarin",
+        "para": "An anticoagulant medication used to prevent blood clots.",
+        "Price:": "100$"
+    }
+  
+   
+  ]

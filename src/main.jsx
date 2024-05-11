@@ -16,6 +16,15 @@ import Ibuprofen from './medicine/Ibuprofen';
 import Paracetamol from './medicine/Paracetamol';
 import Lisinopril from './medicine/Lisinopril';
 import Metformin from './medicine/Metformin';
+import Omeprazole from './medicine/Omeprazole';
+import Amoxicillin from './medicine/Amoxicillin';
+import Atorvastatin from './medicine/Atorvastatin';
+import Levothyroxine from './medicine/Levothyroxine';
+import Prednisone from './medicine/Prednisone';
+import Ciprofloxacin from './medicine/Ciprofloxacin';
+import Warfarin from './medicine/Warfarin';
+import ALL from './Category/ALL';
+import EMedi from './Category/EMedi';
 
 
 
@@ -26,19 +35,19 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element:  <Home></Home>,
+        element: <Home></Home>,
       },
       {
         path: "/login",
-        element:  <Login></Login>,
+        element: <Login></Login>,
       },
       {
         path: "/sign",
-        element:  <SignUp></SignUp>,
+        element: <SignUp></SignUp>,
       },
       {
         path: "/medicine",
-        element:  <Medicine></Medicine>,
+        element: <Medicine></Medicine>,
 
       },
       {
@@ -66,7 +75,52 @@ const router = createBrowserRouter([
         element: <Metformin></Metformin>,
 
       },
-      
+      {
+        path: "/ome",
+        element: <Omeprazole></Omeprazole>,
+
+      },
+      {
+        path: "/amo",
+        element: <Amoxicillin></Amoxicillin> ,
+
+      },
+      {
+        path: "/ato",
+        element: <Atorvastatin></Atorvastatin> ,
+
+      },
+      {
+        path: "/levo",
+        element: <Levothyroxine></Levothyroxine> ,
+
+      },
+      {
+        path: "/pre",
+        element: <Prednisone></Prednisone> ,
+
+      },
+      {
+        path: "/cip",
+        element: <Ciprofloxacin></Ciprofloxacin> ,
+
+      },
+      {
+        path: "/waf",
+        element: <Warfarin></Warfarin> ,
+
+      },
+      {
+        path: "/all",
+        element: <ALL></ALL> ,
+
+      },
+      {
+        path: "/emedi",
+        element: <EMedi></EMedi> ,
+
+      },
+
     ],
   },
 ]);
@@ -74,6 +128,6 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-     <RouterProvider router={router} />
+    <RouterProvider router={router} />
   </React.StrictMode>,
 )

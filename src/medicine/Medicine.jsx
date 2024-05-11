@@ -88,7 +88,9 @@ const Medicine = () => {
                 <div className="space-y-2">
                 <h2 className="text-3xl font-semibold tracking-wide"> Omeprazole </h2>
                 </div>
+                <Link to="/ome" >
                 <button type="button" className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md  bg-white btn text-gray-900">View Details</button>
+                </Link>
                 </div>
                 </div>
 
@@ -99,7 +101,9 @@ const Medicine = () => {
                 <div className="space-y-2">
                 <h2 className="text-3xl font-semibold tracking-wide"> Amoxicillin </h2>
                 </div>
+                <Link to="/amo" >
                 <button type="button" className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md  bg-white btn text-gray-900">View Details</button>
+                </Link>
                 </div>
                 </div>
 
@@ -110,7 +114,9 @@ const Medicine = () => {
                 <div className="space-y-2">
                 <h2 className="text-3xl font-semibold tracking-wide"> Atorvastatin </h2>
                 </div>
+                <Link to="/ato" >
                 <button type="button" className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md  bg-white btn text-gray-900">View Details</button>
+                </Link>
                 </div>
                 </div>
 
@@ -121,7 +127,9 @@ const Medicine = () => {
                 <div className="space-y-2">
                 <h2 className="text-3xl font-semibold tracking-wide"> Levothyroxine </h2>
                 </div>
+                <Link to="/levo" >
                 <button type="button" className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md  bg-white btn text-gray-900">View Details</button>
+                </Link>
                 </div>
                 </div>
 
@@ -131,7 +139,9 @@ const Medicine = () => {
                 <div className="space-y-2">
                 <h2 className="text-3xl font-semibold tracking-wide"> Prednisone </h2>
                 </div>
+                <Link to="/pre" >
                 <button type="button" className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md  bg-white btn text-gray-900">View Details</button>
+                </Link>
                 </div>
                 </div>
 
@@ -142,7 +152,9 @@ const Medicine = () => {
                 <div className="space-y-2">
                 <h2 className="text-3xl font-semibold tracking-wide"> Ciprofloxacin </h2>
                 </div>
+                <Link to="/cip" >
                 <button type="button" className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md  bg-white btn text-gray-900">View Details</button>
+                </Link>
                 </div>
                 </div>
 
@@ -153,7 +165,9 @@ const Medicine = () => {
                 <div className="space-y-2">
                 <h2 className="text-3xl font-semibold tracking-wide"> Warfarin </h2>
                 </div>
+                <Link to="/waf" >
                 <button type="button" className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md  bg-white btn text-gray-900">View Details</button>
+                </Link>
                 </div>
                 </div>
               

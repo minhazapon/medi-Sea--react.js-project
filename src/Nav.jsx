@@ -7,7 +7,7 @@ const Nav = () => {
    
        <li><NavLink to="/">Home</NavLink></li>
        <li><NavLink to="/medicine">Medicine</NavLink></li>
-       <li><NavLink to="/category">All Category</NavLink></li>
+       <li><NavLink to="/all"> Special Category</NavLink></li>
        <li><NavLink to="/history">Medicine History</NavLink></li>
        <li><NavLink to="/info">Medi Info</NavLink></li>
    

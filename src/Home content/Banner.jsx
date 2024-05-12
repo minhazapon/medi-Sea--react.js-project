@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 
@@ -15,8 +16,15 @@ const Banner = () => {
                <p className=" mt-5 text-center text-xl">“Always laugh when you can, it is cheap medicine.”<br></br>
                 ― Lord Byron</p>
                <div className=" mt-10 flex justify-center items-center gap-10">
+
+                <Link to="/hub" >
                 <button className=" btn bg-blue-950 rounded-xl text-white ">Medicine Hub</button>
+                </Link>
+
+                <Link to="/treat" >
                 <button className=" btn  text-black border-[1px] border-blue-950 ">How to treatment</button>
+                </Link>
+
                </div>
                </div>
 

@@ -33,6 +33,8 @@ import And from './History/And';
 import Edw from './History/Edw';
 import Gallery from './COM/Gallery';
 import Blog from './COM/Blog';
+import HUB from './Button compo/HUB';
+import Treatment from './Button compo/Treatment';
 
 
 
@@ -166,6 +168,16 @@ const router = createBrowserRouter([
       {
         path: "/blog",
         element:   <Blog></Blog>,
+
+      },
+      {
+        path: "/hub",
+        element:   <HUB></HUB>,
+
+      },
+      {
+        path: "/treat",
+        element:   <Treatment></Treatment>,
 
       },
 

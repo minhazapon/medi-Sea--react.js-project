@@ -77,7 +77,7 @@ const Nav = () => {
 
                
 
-                <div className="navbar-end">
+                <div className="navbar-end flex items-center gap-1">
 
                    {/* ---------------------theme */}
                    <label htmlFor="Toggle1" className="inline-flex items-center space-x-4 cursor-pointer text-gray-100">

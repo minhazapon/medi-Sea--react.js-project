@@ -4,9 +4,25 @@ import { Link } from "react-router-dom";
 
 const History = () => {
     return (
-        <div className=" flex justify-center mb-10 mt-10 mr-10 ml-10">
 
 
+        <div className=" mb-10 mt-10 mr-10 ml-10 ">
+
+                     <div className=" text-center mb-5 ">
+                      <h1 className=" text-blue-950 text-6xl font-bold">Best man of medical history</h1>
+                      <p className=" text-2xl text-slate-400 mt-5">Time is generally the best doctor</p>
+                       <hr className=" mt-5"></hr>
+
+                     </div>
+
+
+
+
+        <div className=" flex justify-center ">
+                  
+
+
+                 
             <div className=" grid  md:grid-cols-3 gap-5 ">
 
                 <div>
@@ -89,6 +105,9 @@ const History = () => {
 
             </div>
             
+        </div>
+
+
         </div>
     );
 };

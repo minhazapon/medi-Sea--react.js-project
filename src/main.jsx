@@ -31,6 +31,7 @@ import Hip from './History/Hip';
 import Cla from './History/Cla';
 import And from './History/And';
 import Edw from './History/Edw';
+import Gallery from './COM/Gallery';
 
 
 
@@ -154,6 +155,11 @@ const router = createBrowserRouter([
       {
         path: "/edw",
         element:  <Edw></Edw> ,
+
+      },
+      {
+        path: "/gallery",
+        element:   <Gallery></Gallery>,
 
       },
 

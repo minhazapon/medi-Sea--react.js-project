@@ -25,6 +25,12 @@ import Ciprofloxacin from './medicine/Ciprofloxacin';
 import Warfarin from './medicine/Warfarin';
 import ALL from './Category/ALL';
 import EMedi from './Category/EMedi';
+import History from './History/History';
+import Avi from './History/Avi';
+import Hip from './History/Hip';
+import Cla from './History/Cla';
+import And from './History/And';
+import Edw from './History/Edw';
 
 
 
@@ -118,6 +124,36 @@ const router = createBrowserRouter([
       {
         path: "/emedi",
         element: <EMedi></EMedi> ,
+
+      },
+      {
+        path: "/history",
+        element: <History></History> ,
+
+      },
+      {
+        path: "/avi",
+        element: <Avi></Avi> ,
+
+      },
+      {
+        path: "/hip",
+        element: <Hip></Hip> ,
+
+      },
+      {
+        path: "/cla",
+        element: <Cla></Cla> ,
+
+      },
+      {
+        path: "/and",
+        element:  <And></And> ,
+
+      },
+      {
+        path: "/edw",
+        element:  <Edw></Edw> ,
 
       },
 

@@ -32,6 +32,7 @@ import Cla from './History/Cla';
 import And from './History/And';
 import Edw from './History/Edw';
 import Gallery from './COM/Gallery';
+import Blog from './COM/Blog';
 
 
 
@@ -160,6 +161,11 @@ const router = createBrowserRouter([
       {
         path: "/gallery",
         element:   <Gallery></Gallery>,
+
+      },
+      {
+        path: "/blog",
+        element:   <Blog></Blog>,
 
       },
 

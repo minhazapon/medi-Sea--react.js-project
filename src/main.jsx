@@ -23,8 +23,6 @@ import Levothyroxine from './medicine/Levothyroxine';
 import Prednisone from './medicine/Prednisone';
 import Ciprofloxacin from './medicine/Ciprofloxacin';
 import Warfarin from './medicine/Warfarin';
-import ALL from './Category/ALL';
-import EMedi from './Category/EMedi';
 import History from './History/History';
 import Avi from './History/Avi';
 import Hip from './History/Hip';
@@ -123,16 +121,7 @@ const router = createBrowserRouter([
         element: <Warfarin></Warfarin> ,
 
       },
-      {
-        path: "/all",
-        element: <ALL></ALL> ,
-
-      },
-      {
-        path: "/emedi",
-        element: <EMedi></EMedi> ,
-
-      },
+     
       {
         path: "/history",
         element: <History></History> ,

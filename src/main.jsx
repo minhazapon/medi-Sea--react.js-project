@@ -36,6 +36,8 @@ import Treatment from './Button compo/Treatment';
 import AboutDetails from './Home content/AboutDetails';
 import GO from './Home content/GO';
 import KitSHop from './MediShop/KitSHop';
+import OrderBox from './MediShop/OrderBox';
+import KitMother from './MediShop/KitMother';
 
 
 
@@ -183,8 +185,19 @@ const router = createBrowserRouter([
 
       },
       {
+        path: "/box",
+        element:  <OrderBox></OrderBox> ,
+
+      },
+      {
         path: "/kit",
+        loader: ()=> fetch('https://mocki.io/v1/a9a36778-ac4c-4a60-9a8a-84a8aa2d782f') ,
         element: <KitSHop></KitSHop>,
+
+      },
+      {
+        path: "/kitM",
+        element:  <KitMother></KitMother> ,
 
       },
 

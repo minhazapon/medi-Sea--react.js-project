@@ -1,22 +1,37 @@
+import { useState } from "react";
+import Box from "./Box";
 import KitSHop from "./KitSHop";
-import OrderBox from "./OrderBox";
 
 
 
 
 const KitMother = () => {
+    
+
+    const [ medi, setMedical ] = useState([]);
+
+
+
+    
+    const handleMedical = data => {
+
+        const newMedical = [ ...medi, data]
+
+        setMedical(newMedical)
+      
+
+
+     }
+
+     
+
+
     return (
         <div>
-             
-
-             <div className=" flex justify-center">
-
-                <KitSHop></KitSHop>
-                <OrderBox></OrderBox>
-
-             </div>
-            
-            
+            <div className="">
+            <KitSHop handleMedical={handleMedical} ></KitSHop>
+            <Box medi={medi}  ></Box>
+            </div>
         </div>
     );
 };

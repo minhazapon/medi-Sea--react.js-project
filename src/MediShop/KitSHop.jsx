@@ -1,14 +1,26 @@
-import { useLoaderData } from "react-router-dom";
+
 import Shopdetails from "./Shopdetails";
 
+import { useEffect, useState } from "react";
 
 
 
-
-const KitSHop = () => {
+const KitSHop = ({handleMedical}) => {
 
     
-   const data = useLoaderData();
+
+
+   const [data, setItems] = useState([]);
+
+   useEffect( () => {
+
+      fetch('https://mocki.io/v1/a9a36778-ac4c-4a60-9a8a-84a8aa2d782f')
+       .then(res => res.json())
+       .then(data => setItems(data))
+
+
+   } , [])
+
 
 
 
@@ -28,13 +40,13 @@ const KitSHop = () => {
                </div>
 
 
-            <div className=" flex items-center">
+            <div className=" flex justify-center  ">
 
-            <div className=" grid grid-cols-2">
+            <div className=" grid  md:grid-cols-4 ">
                
                {
                 
-                data.map( data => <Shopdetails key={data.id}  data={data}></Shopdetails> )
+                data.map( data => <Shopdetails key={data.id}  data={data}  handleMedical={handleMedical} ></Shopdetails> )
 
 
                }

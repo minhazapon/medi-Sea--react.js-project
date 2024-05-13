@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 
@@ -20,8 +21,10 @@ const About = () => {
                      Medications and Treatments: Details about <br></br> different medications, including their uses,<br></br> mechanisms of action, dosages, side effects, <br></br> and interactions with other drugs. <br></br> This also includes information <br></br> about medical treatments such as surgery, <br></br> chemotherapy, and physical therapy.
                      Public Health: <br></br> Information about <br></br> public health initiatives, epidemiology, <br></br> infectious diseases, vaccination programs, <br></br> and strategies for disease prevention and control.
                      </p>
-
-                     <button className=" btn bg-blue-950 text-xl text-white w-[200px] mt-5">About</button>   
+                     
+                     <Link to="/AD" >
+                     <button className=" btn bg-blue-950 text-xl text-white w-[200px] mt-5">About</button> 
+                     </Link>  
                        
                  </div>
 

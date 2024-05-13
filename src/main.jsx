@@ -35,6 +35,8 @@ import Gallery from './COM/Gallery';
 import Blog from './COM/Blog';
 import HUB from './Button compo/HUB';
 import Treatment from './Button compo/Treatment';
+import AboutDetails from './Home content/AboutDetails';
+import GO from './Home content/GO';
 
 
 
@@ -178,6 +180,16 @@ const router = createBrowserRouter([
       {
         path: "/treat",
         element:   <Treatment></Treatment>,
+
+      },
+      {
+        path: "/AD",
+        element:   <AboutDetails></AboutDetails>,
+
+      },
+      {
+        path: "/GO",
+        element:    <GO></GO> ,
 
       },
 

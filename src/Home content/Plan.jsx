@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 const Plan = () => {
@@ -34,8 +35,9 @@ const Plan = () => {
 
                </div>
 
-  
+              <Link to="/GO" >
               <button className=" w-[200px] text-xl btn  mt-10 bg-blue-950 text-white">Go Now</button>
+              </Link>
 
 
 

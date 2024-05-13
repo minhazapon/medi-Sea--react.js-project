@@ -37,6 +37,7 @@ import HUB from './Button compo/HUB';
 import Treatment from './Button compo/Treatment';
 import AboutDetails from './Home content/AboutDetails';
 import GO from './Home content/GO';
+import KitSHop from './MediShop/KitSHop';
 
 
 
@@ -190,6 +191,11 @@ const router = createBrowserRouter([
       {
         path: "/GO",
         element:    <GO></GO> ,
+
+      },
+      {
+        path: "/kit",
+        element: <KitSHop></KitSHop>,
 
       },
 

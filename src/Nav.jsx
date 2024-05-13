@@ -10,6 +10,7 @@ const Nav = () => {
    
        <li><NavLink to="/">Home</NavLink></li>
        <li><NavLink to="/medicine">Medicine</NavLink></li>
+       <li><NavLink to="/kit">KitShop</NavLink></li>
        <li><NavLink to="/all"> Special Category</NavLink></li>
        <li><NavLink to="/history">Medicine History</NavLink></li>
        <li><NavLink to="/gallery">Gallery</NavLink></li>

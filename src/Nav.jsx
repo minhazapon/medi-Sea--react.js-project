@@ -1,5 +1,7 @@
 import { Link, NavLink } from "react-router-dom";
 
+import MovingComponent from 'react-moving-text'
+
 // ---------------theme
 import { useEffect, useState } from 'react'
 // -----------------------------------------
@@ -66,7 +68,21 @@ const Nav = () => {
                   <img className=" h-[50px] "
                     src="https://i.ibb.co/C5dY1P5/herbal-capsule-pill-leaf-medicine-logo-icon-illustration-template-capsule-pharmacy-medical-logo-temp.jpg"
                      alt="" />
-                  <a className="  text-green-700 font-bold text-xl">Medicine <span className="  text-blue-950">Galaxy</span></a>
+
+                  
+                  
+                   <MovingComponent
+                     type="rotateSlowDown"
+                     duration="1000ms"
+                     delay="0s"
+                     direction="normal"
+                     timing="ease"
+                     iteration="5"
+                     fillMode="none">
+                   <a className="  text-green-700 font-bold text-xl">Medicine <span className="  text-blue-950">Galaxy</span></a>
+                   </MovingComponent>
+
+
                   </div>
                 </div>
                 <div className="navbar-center hidden lg:flex">

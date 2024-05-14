@@ -1,5 +1,7 @@
 
 
+import Marquee from "react-fast-marquee";
+
 
 
 const Find = () => {
@@ -7,11 +9,16 @@ const Find = () => {
         <div className=" ml-10 mr-10 mb-10 mt-10">
 
             <div>
-
+              
+            <Marquee>
             <div>
               <h1 className=" text-center text-6xl font-bold text-blue-950">Find Your Specialist Doctor</h1>
               <p className=" mt-5 text-center text-xl font-bold text-slate-400">“The art of medicine consists of amusing the patient while nature cures the disease.”</p>
-            </div>
+            </div> 
+            </Marquee> 
+
+
+            
               
 {/* ----------------------------------------------------------- */}
 

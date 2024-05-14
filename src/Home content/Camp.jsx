@@ -5,11 +5,11 @@ const Camp = () => {
     return (
         <div className="  mb-16 mt-16 ml-10 mr-10">
  
-            <div className=" flex-col md:flex-row lg:flex-row flex justify-center gap-20">
+            <div className="  flex-col md:flex-row lg:flex-row flex justify-center gap-20">
 
             
 
-               <div className=" flex-col md:flex-row lg:flex-row text-blue-600">
+               <div className=" animate__animated animate__fadeInRightBig animate__repeat-2 flex-col md:flex-row lg:flex-row text-blue-600">
                      <h1 className=" mb-10 text-2xl font-bold text-blue-950">Available treatment In medical campsite</h1>
 
                     
@@ -69,7 +69,7 @@ const Camp = () => {
 
      {/* --------------------------------------------------------------------------           */}
 
-               <div className=" flex-col md:flex-row lg:flex-row text-blue-600">
+               <div className=" animate__animated animate__fadeInLeftBig animate__repeat-2 flex-col md:flex-row lg:flex-row text-blue-600">
 
 
 

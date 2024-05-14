@@ -1,5 +1,8 @@
 import { Link } from "react-router-dom";
 
+import Marquee from "react-fast-marquee";
+
+
 
 const Plan = () => {
     return (
@@ -11,6 +14,9 @@ const Plan = () => {
             <div className="  flex-col md:flex-row lg:flex-row  p-32 bg-no-repeat  bg-cover"
 
             style={{backgroundImage: 'url(https://cdn.medicalfuturist.com/wp-content/uploads/2020/08/195_tmf-01.png)'}}>
+
+               <Marquee>
+
 
                <div className=" flex-col md:flex-row lg:flex-row text-white  bg-gradient-to-r from-black p-3">
 
@@ -35,8 +41,10 @@ const Plan = () => {
 
                </div>
 
+               </Marquee> 
+
               <Link to="/GO" >
-              <button className=" w-[200px] text-xl btn  mt-10 bg-blue-950 text-white">Go Now</button>
+              <button className=" animate__animated animate__heartBeat animate__repeat-2 w-[200px] text-xl btn  mt-10 bg-blue-950 text-white">Go Now</button>
               </Link>
 
 

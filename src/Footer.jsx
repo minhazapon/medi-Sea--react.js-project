@@ -8,7 +8,7 @@ const Footer = () => {
 
             <div>
 
-            <footer className="footer p-10 text-white  bg-blue-950 ">
+            <footer className=" animate__animated animate__fadeInRightBig animate__repeat-2  footer p-10 text-white  bg-blue-950 ">
   <nav>
   <h6 className="footer-title">Social media</h6> 
     <div className=' flex items-center gap-2'>

@@ -9,11 +9,11 @@ const Team = () => {
 
                   
 
-            <section className="py-6  bg-blue-950 text-gray-100">
-	<div className="container flex flex-col items-center justify-center p-4 mx-auto sm:p-10">
-		<p className="p-2 text-sm font-medium tracking-wider text-center uppercase">Medical team</p>
-		<h1 className="text-4xl font-bold leading-none text-center sm:text-5xl">The talented people behind the scenes</h1>
-		<div className="flex flex-row flex-wrap-reverse justify-center mt-8">
+            <section className="  animate__animated animate__flip animate__repeat-2  py-6  bg-blue-950 text-gray-100">
+	        <div className="container flex flex-col items-center justify-center p-4 mx-auto sm:p-10">
+	     	<p className="p-2 text-sm font-medium tracking-wider text-center uppercase">Medical team</p>
+		    <h1 className="text-4xl font-bold leading-none text-center sm:text-5xl">The talented people behind the scenes</h1>
+		    <div className="flex flex-row flex-wrap-reverse justify-center mt-8">
 			<div className="flex flex-col justify-center w-full px-8 mx-6 my-12 text-center rounded-md md:w-96 lg:w-80 xl:w-64 bg-gray-100 text-gray-800">
 				<img alt="" className="self-center flex-shrink-0 w-24 h-24 -mt-12 bg-center bg-cover rounded-full bg-gray-500"
                  src="https://img.freepik.com/free-photo/smiling-doctor-with-strethoscope-isolated-grey_651396-974.jpg?t=st=1715348264~exp=1715351864~hmac=54b1203e9d0e7af6940f56174ae77674a59aed4f3d05333976c417d21b6478c9&w=740" />

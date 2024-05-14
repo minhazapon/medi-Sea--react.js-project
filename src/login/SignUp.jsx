@@ -2,6 +2,31 @@
 
 
 const SignUp = () => {
+
+
+    const handleC = e => {
+      
+		e.preventDefault();
+		 
+	
+		 console.log(e.target.Email.value)
+		 console.log(e.target.username.value)
+		 console.log(e.target.Photo_url.value)
+		 console.log(e.target.password.value)
+		 
+	
+		
+	
+	   }
+
+
+
+
+
+
+
+
+
     return (
         <div className=" mt-10 mb-10 ml-10 mr-10" >
 
@@ -11,7 +36,7 @@ const SignUp = () => {
 
             <div className="w-full max-w-md p-8 space-y-3 rounded-xl  bg-blue-950 text-gray-100">
 	<h1 className="text-2xl font-bold text-center">Sign up</h1>
-	<form noValidate="" action="" className="space-y-6">
+	<form onSubmit={handleC} action="" className="space-y-6">
 
 
 
@@ -43,8 +68,9 @@ const SignUp = () => {
 		</div>
 
 
+        <input  className="block w-full p-3 text-center rounded-sm btn text-gray-900  bg-white" type="submit" value="Sign in" />    
 
-		<button className="block w-full p-3 text-center rounded-sm btn text-gray-900  bg-white">Sign in</button>
+		
 
 
 

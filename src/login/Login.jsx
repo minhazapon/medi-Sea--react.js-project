@@ -3,6 +3,33 @@ import { Link } from "react-router-dom";
 
 
 const Login = () => {
+
+
+	const handleC = e => {
+      
+		e.preventDefault();
+		 
+	
+		 console.log(e.target.email.value)
+		 console.log(e.target.password.value)
+		 
+	
+		
+	
+	   }
+
+
+
+
+
+
+
+
+
+
+
+
+
     return (
         <div className=" mt-10 mb-10 ml-10 mr-10">
             <div className=" flex justify-center ">
@@ -37,7 +64,7 @@ const Login = () => {
 		<p className="px-3 text-gray-400">OR</p>
 		<hr  className="w-full text-gray-400" />
 	</div>
-	<form noValidate="" action="" className="space-y-8">
+	<form  onSubmit={handleC} action="" className="space-y-8">
 		<div className="space-y-4">
 			<div className="space-y-2">
 				<label htmlFor="email" className="block text-sm">Email address</label>
@@ -51,7 +78,7 @@ const Login = () => {
 				<input type="password" name="password" id="password" placeholder="*****" className="w-full px-3 py-2 border rounded-md border-gray-700 bg-white  text-black focus:border-violet-400" />
 			</div>
 		</div>
-		<button type="button" className="w-full px-8 py-3 font-semibold rounded-md bg-white btn text-gray-900">Sign in</button>
+		<input className="w-full px-8 py-3 font-semibold rounded-md bg-white btn text-gray-900" type="submit" value="Sign in" />
 	</form>
 </div>
 

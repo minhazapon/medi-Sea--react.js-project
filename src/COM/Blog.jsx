@@ -8,7 +8,7 @@ const Blog = () => {
 
             <div>
 
-            <div className="min-h-screen bg-blue-950 text-gray-100">
+            <div className=" animate__animated animate__flip animate__repeat-2 min-h-screen bg-blue-950 text-gray-100">
 	<div className="p-6 space-y-8">
 		
 		<main>

@@ -36,8 +36,7 @@ import Treatment from './Button compo/Treatment';
 import AboutDetails from './Home content/AboutDetails';
 import GO from './Home content/GO';
 import KitSHop from './MediShop/KitSHop';
-import KitMother from './MediShop/KitMother';
-import Box from './MediShop/Box';
+
 
 
 
@@ -189,17 +188,8 @@ const router = createBrowserRouter([
         element: <KitSHop></KitSHop>,
 
       },
-      {
-        path: "/kitM",
-        element:  <KitMother></KitMother> ,
-
-      },
-      {
-        path: "/box",
-        element:  <Box></Box> ,
-
-      },
-
+      
+      
     ],
   },
 ]);

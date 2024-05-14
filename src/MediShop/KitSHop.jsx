@@ -42,7 +42,7 @@ const KitSHop = ({handleMedical}) => {
 
             <div className=" flex justify-center  ">
 
-            <div className=" grid  md:grid-cols-4 ">
+            <div className="  grid  md:grid-cols-4 ">
                
                {
                 

@@ -17,7 +17,7 @@ const HUB = () => {
 
             <div className=" flex justify-center">
              
-            <div className=" grid grid-cols-3 gap-5">
+            <div className=" grid  md:grid-cols-3 gap-5">
 
                
             <div className="max-w-xs p-6 rounded-md shadow-md  border-[1px] border-blue-950 text-gray-50">

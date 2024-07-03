@@ -1,7 +1,31 @@
+import { useContext } from "react";
+import { FireContext } from "../Firebase/AuthContext";
 
 
 
 const SignUp = () => {
+
+    const {createUser} = useContext(FireContext)
+
+
+	const handleUp = e =>{
+        
+		e.preventDefault();
+		const email = e.target.email.value
+		const password = e.target.password.value
+		console.log(email, password)
+
+		createUser(email, password)
+		.then( result => {
+			console.log(result)
+		})
+		.catch( error => {
+			console.error(error)
+		})
+
+
+
+	}
 
 
    
@@ -25,7 +49,7 @@ const SignUp = () => {
 
 
 	
-	<form   className="space-y-6">
+	<form onSubmit={handleUp}   className="space-y-6">
 
 
 
@@ -37,7 +61,7 @@ const SignUp = () => {
 
 		<div className="space-y-1 text-sm">
 			<label htmlFor="username" className="block text-gray-400">Email</label>
-            <input type="email" name="Email" placeholder="Email" id="" className="w-full px-4 py-3 rounded-md border-gray-700   bg-white text-black focus:border-violet-400"  />
+            <input type="email" name="email" placeholder="Email" id="" className="w-full px-4 py-3 rounded-md border-gray-700   bg-white text-black focus:border-violet-400"  />
  		</div>
 
 

@@ -36,6 +36,7 @@ import Treatment from './Button compo/Treatment';
 import AboutDetails from './Home content/AboutDetails';
 import GO from './Home content/GO';
 import KitSHop from './MediShop/KitSHop';
+import AuthContext from './Firebase/AuthContext';
 
 
 
@@ -197,6 +198,15 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    
+    <AuthContext>
+      
+      
     <RouterProvider router={router} />
+
+    </AuthContext>
+    
+
+
   </React.StrictMode>,
 )

@@ -3,7 +3,7 @@
 
 
 
-const Shopdetails = ({data, handleMedical}) => {
+const Shopdetails = ({data}) => {
 
 
     const { image, name, } = data

@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 
 
 
-const KitSHop = ({handleMedical}) => {
+const KitSHop = () => {
 
     
 
@@ -14,7 +14,7 @@ const KitSHop = ({handleMedical}) => {
 
    useEffect( () => {
 
-      fetch('https://mocki.io/v1/a9a36778-ac4c-4a60-9a8a-84a8aa2d782f')
+      fetch('kit.json')
        .then(res => res.json())
        .then(data => setItems(data))
 
@@ -46,7 +46,7 @@ const KitSHop = ({handleMedical}) => {
                
                {
                 
-                data.map( data => <Shopdetails key={data.id}  data={data}  handleMedical={handleMedical} ></Shopdetails> )
+                data.map( data => <Shopdetails key={data.id}  data={data}   ></Shopdetails> )
 
 
                }

@@ -7,12 +7,12 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCHc0jyOmN_VKyU7I53_oM3bjb1BQeyeNE",
-  authDomain: "medicine-galaxy-32df3.firebaseapp.com",
-  projectId: "medicine-galaxy-32df3",
-  storageBucket: "medicine-galaxy-32df3.appspot.com",
-  messagingSenderId: "807632622734",
-  appId: "1:807632622734:web:8593dd082b00b27f8765df"
+  apiKey:  import.meta.env.VITE_APYKEY ,
+  authDomain:  import.meta.env.VITE_AUTHDOMAIN ,
+  projectId:   import.meta.env.VITE_PROJECTID ,
+  storageBucket:  import.meta.env.VITE_STROGEBUCKET ,
+  messagingSenderId:  import.meta.env.VITE_MESSAGINGSENDERID ,
+  appId: import.meta.env.VITE_APPID,
 };
 
 // Initialize Firebase

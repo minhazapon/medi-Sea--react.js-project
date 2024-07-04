@@ -37,6 +37,8 @@ import AboutDetails from './Home content/AboutDetails';
 import GO from './Home content/GO';
 import KitSHop from './MediShop/KitSHop';
 import AuthContext from './Firebase/AuthContext';
+import PrivateRoute from './Firebase/PrivateRoute';
+// import PrivateRoute from './PrivateRoute';
 
 
 
@@ -186,7 +188,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/kit",
-        element: <KitSHop></KitSHop>,
+        element:   <PrivateRoute><KitSHop></KitSHop></PrivateRoute>   ,
 
       },
       

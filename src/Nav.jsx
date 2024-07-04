@@ -3,7 +3,8 @@ import { Link, NavLink } from "react-router-dom";
 import MovingComponent from 'react-moving-text'
 
 // ---------------theme
-import { useEffect, useState } from 'react'
+import { useContext, useEffect, useState } from 'react'
+import { FireContext } from "./Firebase/AuthContext";
 // -----------------------------------------
 
 const Nav = () => {
@@ -41,6 +42,25 @@ const Nav = () => {
     document.querySelector('html').setAttribute('data-theme', localTheme)
   }, [theme])
   // --------------------------------------
+
+    
+     const {user, logOut} = useContext(FireContext)
+
+
+     const handleOut = () =>{
+        
+      logOut()
+      .then( () => {
+        console.log('Logout successfully')
+      }  ) 
+      .catch( error => {
+        console.error(error)
+      } )
+
+
+     }
+
+
 
 
 
@@ -107,9 +127,21 @@ const Nav = () => {
                     
                     </label>
                     {/* ------------------------------------                      */}
-                  <Link to="/login"  >
-                  <a className="btn text-white  bg-blue-950">login</a>
-                  </Link>
+
+                    { user ? <>
+                    
+                      <a onClick={handleOut} className="btn text-white  bg-blue-950">SignOut</a>
+                    </>:
+                      <Link to="/login"  >
+                       <a  className="btn text-white  bg-blue-950">SignIn</a>
+                      </Link>
+
+
+                    }
+
+
+
+                 
 
                 </div>
               </div>
